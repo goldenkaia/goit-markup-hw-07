@@ -1,0 +1,30 @@
+@media  screen and (min-width:1200px) {
+  .container {
+    max-width: 1158px;
+  }
+  .contact-items {
+    gap: 40px;
+    flex-direction: row;
+  }
+  .email-link, .phone-number {
+    font-size: 16px;
+  }
+  .hero {
+    width: 1440px;
+    height: 600px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+  }
+  .page-title {
+    margin-bottom: 48px;
+  }
+  .features {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .header-three {
+    font-weight: 500;
+    font-size: 36px;
+    margin-bottom: 8px;
+  }
+}

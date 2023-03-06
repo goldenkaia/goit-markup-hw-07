@@ -1,0 +1,44 @@
+@media screen and (min-width:768px) {
+  .mobile-menu {
+    display: none;
+    
+  }
+  .container {
+    max-width: 768px;
+  }
+  .contact-items {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .email-link {
+    font-size: 12px;
+  }
+  .phone-number {
+    font-size: 12px;
+  }
+  .button-menu-open {
+    display: none;
+  }
+  .hero {
+    height: 436px;
+    padding-bottom: 108px;
+  }
+  .page-title {
+    font-size: 56px;
+    width: 496px;
+    margin-bottom: 40px;
+  }
+  .features {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .thumb {
+    display: none;
+  }
+  .header-three {
+ font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 8px;
+  }
+
+}

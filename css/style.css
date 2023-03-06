@@ -56,7 +56,7 @@ body {
 }
 
 .container {
-  width: 1158px;
+  max-width: 428px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -64,6 +64,8 @@ body {
 }
 
 .page-header {
+ 
+
   padding-bottom: 24px;
   padding-top: 24px;
   border-bottom: 1px solid var(--cornflower-color);
@@ -71,6 +73,7 @@ body {
 
 .header-container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 
 }
@@ -124,8 +127,7 @@ body {
 
 }
 
-.menu,
-.contact-items {
+.menu {
   gap: 40px;
 }
 
@@ -149,7 +151,7 @@ body {
   width: 100%;
   height: 4px;
   background-color: #4D5AE5;
-  bottom: -27px;
+  bottom: -24px;
   border-radius: 2px;
 
 }
@@ -168,7 +170,7 @@ body {
 /*--email-link*/
 .email-link {
 
-  font-size: 16px;
+  
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-color);
@@ -185,7 +187,7 @@ body {
 .phone-number {
 
   font-weight: 400;
-  font-size: 16px;
+ 
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-color);
@@ -200,12 +202,12 @@ body {
 /*--page-header--*/
 .hero {
   background: var(--navy-blue-color);
-  max-width: 1440px;
-  height: 600px;
+  max-width: 100%;
+  height: 432px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding-top: 112px;
+  padding-bottom: 112px;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -215,17 +217,15 @@ body {
 .page-title {
 
   font-weight: 700;
-  font-size: 56px;
+  font-size: 36px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--body-background-color);
   text-align: center;
-}
-
-.page-title-content {
-  width: 496px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 72px;
 }
 
 /*--modal-button--*/
@@ -244,7 +244,7 @@ body {
 /*--text-button--*/
 .text-button {
   padding: 16px 32px;
-  margin-top: 48px;
+
   margin-left: auto;
   margin-right: auto;
   font-weight: 500;
@@ -259,9 +259,9 @@ body {
 
 
 /*----------features-list-----------*/
-.features {
-  padding-bottom: 120px;
-  padding-top: 120px;
+.features { 
+  padding-bottom: 47px;
+  padding-top: 96px;
 
 }
 
@@ -278,9 +278,6 @@ body {
 .features-list-item {
   width: 264px;
 }
-
-.features-icon {}
-
 
 .par-description {
   line-height: 1.5;
@@ -372,14 +369,14 @@ body {
 
 /*--header-three--*/
 .header-three {
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue-color);
   margin-bottom: 8px;
 
-  /*-------there's no padding top, at the bottom no padding-----*/
+ 
 }
 
 .person-name {
