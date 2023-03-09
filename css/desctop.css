@@ -1,4 +1,4 @@
-@media  screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
   .container {
     max-width: 1158px;
   }
@@ -6,7 +6,8 @@
     gap: 40px;
     flex-direction: row;
   }
-  .email-link, .phone-number {
+  .email-link,
+  .phone-number {
     font-size: 16px;
   }
   .hero {
@@ -14,14 +15,17 @@
     height: 600px;
     padding-top: 188px;
     padding-bottom: 188px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Allimages/Hero/people-office-desktop.jpg);
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/Allimages/Hero/people-office-desktop.jpg);
   }
   .page-title {
     margin-bottom: 48px;
   }
   .features-list {
     gap: 24px;
-    
   }
   .features-list-item {
     width: 264px;
@@ -37,22 +41,21 @@
   }
   .thumb {
     display: block;
-   
-      width: 264px;
-      height: 112px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: var(--cloud-color);
-      border-radius: 4px;
-      margin-bottom: 8px;
-    
+
+    width: 264px;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--cloud-color);
+    border-radius: 4px;
+    margin-bottom: 8px;
   }
   .directions {
     display: flex;
     gap: 24px;
   }
-  
+
   .what-are-we-doing {
     display: block;
     padding-bottom: 120px;
@@ -67,18 +70,16 @@
   .footer-wrap {
     flex-direction: row;
     width: 100%;
-    
   }
   .footer-container {
     margin-right: 120px;
   }
   .footer-subscribe-container {
-margin-left: auto;
+    margin-left: auto;
   }
   .portfolio {
     padding-bottom: 120px;
     padding-top: 96px;
-  
   }
   .filter-list {
     margin-bottom: 72px;
