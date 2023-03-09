@@ -55,6 +55,9 @@
     padding-right: 16px;
     padding-bottom: 24px;
   }
+  .filter-list {
+    width: 270px;
+  }
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),

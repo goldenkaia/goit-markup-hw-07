@@ -75,6 +75,17 @@
   .footer-subscribe-container {
 margin-left: auto;
   }
+  .portfolio {
+    padding-bottom: 120px;
+    padding-top: 96px;
+  
+  }
+  .filter-list {
+    margin-bottom: 72px;
+  }
+  .project-cards-list {
+    gap: 48px 24px;
+  }
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
   screen and (min-resolution: 192dpi) and (min-width: 1200px),

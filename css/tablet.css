@@ -96,6 +96,31 @@ width: 552px;
   padding-right: 24px;
   padding-bottom: 24px;
 }
+/*-------Portfolio----*/
+.portfolio {
+  padding-bottom: 96px;
+  padding-top: 64px;
+
+}
+.filter-list {
+justify-content: center;
+ gap: 16px 24px;
+width: 100%;
+margin-bottom: 64px;
+}
+.filter-button {
+  padding: 12px 24px;
+
+}
+.project-cards-list {
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 72px 24px;
+  
+}
+.project-card-item {
+  width: 356px;
+}
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
   screen and (min-resolution: 192dpi) and (min-width: 768px),
