@@ -89,6 +89,13 @@ width: 552px;
 .footer-modal-form-field {
   flex-direction: row;
 }
+.modal-window {
+  width: 408px;
+  padding-top: 72px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+}
 }
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
   screen and (min-resolution: 192dpi) and (min-width: 768px),
