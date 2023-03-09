@@ -109,8 +109,12 @@ body {
   font-size: 18px;
   line-height: 1.3;
   letter-spacing: 0.03em;
+  text-align: center;
   text-transform: uppercase;
   color: var(--iris-color);
+  display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*--logo-two*/
@@ -126,7 +130,6 @@ body {
 
 
 }
-
 .menu {
   gap: 40px;
 }
@@ -208,7 +211,7 @@ body {
   margin-right: auto;
   padding-top: 112px;
   padding-bottom: 112px;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Allimages/Hero/people-office-mobile.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -260,24 +263,25 @@ body {
 
 /*----------features-list-----------*/
 .features { 
-  padding-bottom: 47px;
+  padding-bottom: 96px;
   padding-top: 96px;
 
 }
 
-.what-are-we-doing {
-  padding-bottom: 120px;
-}
+
 
 .features-list {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
 }
 
+/*---
 .features-list-item {
   width: 264px;
 }
+--*/
 
 .par-description {
   line-height: 1.5;
@@ -286,12 +290,20 @@ body {
 
 }
 
+
 /*-----------Our-team----------*/
 
 .our-team {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
   background: var(--cloud-color);
+}
+
+.photo-list {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  align-items:center;
 }
 
 .photo-list-item {
@@ -302,15 +314,11 @@ body {
 }
 
 /*-----------what-are-we-doing------------*/
-.directions {
-  display: flex;
-  gap: 24px;
-}
 
-.photo-list {
-  display: flex;
-  gap: 24px;
 
+.what-are-we-doing {
+  display: none;
+ 
 }
 
 /*--filter-list--*/
@@ -369,7 +377,7 @@ body {
 
 /*--header-three--*/
 .header-three {
-  font-weight: 700;
+ text-align: center;
   font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.02em;
@@ -380,7 +388,8 @@ body {
 }
 
 .person-name {
-
+  font-weight: 500;
+font-size: 20px;
   text-align: center;
 }
 
@@ -427,8 +436,8 @@ body {
 /*---------page-footer------------*/
 .page-footer {
   background: var(--navy-blue-color);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .footer-container {
@@ -457,12 +466,14 @@ body {
 
 }
 
-.footer-social-container {
-  margin-left: 120px;
-}
+
 
 .footer-wrap {
-  display: flex;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 72px;
 }
 
 .footer-social-media {
@@ -474,7 +485,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--body-background-color);
   margin-bottom: 16px;
-
+text-align: center;
 }
 
 .footer-social-link {
@@ -628,18 +639,19 @@ body {
 /*----customers-section---*/
 
 .customers {
-  padding-top: 130px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .customers-list {
   display: flex;
-  gap: 24px;
+  flex-wrap: wrap;
+  gap: 72px 16px;
 }
 
 
 .customer-item {
-  width: 168px;
+  width: 100%;
   height: 88px;
 }
 
@@ -669,16 +681,7 @@ body {
 }
 
 
-.thumb {
-  width: 264px;
-  height: 112px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--cloud-color);
-  border-radius: 4px;
-  margin-bottom: 8px;
-}
+
 
 /*-------modal-window-------*/
 .backdrop {
@@ -702,13 +705,13 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-  width: 408px;
-  min-height: 576px;
-  background: #FCFCFC;
   padding: 24px;
   padding-top: 72px;
-  border-radius: 4px;
+  width: 408px;
+  min-height: 576px;
+  transform: translate(-50%, -50%);
+ background: #FCFCFC;
+border-radius: 4px;
 }
 
 .modal-close-button {
@@ -880,17 +883,14 @@ color: #757575;
 color: var(--iris-color);
 }
 
-.footer-subscribe-container {
-  margin-left: auto;
-}
-
 .footer-modal-form-field {
   display: flex;
+  flex-direction: column;
   gap: 24px;
 }
 .footer-field-input {
   background-color: transparent;
-  width: 264px;
+  width: 220px;
   height: 40px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
@@ -904,7 +904,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: calc(24/16);
 margin-bottom: 16px;
-
+text-align: center;
 letter-spacing: 0.02em;
 
 color: #FFFFFF;
