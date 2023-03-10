@@ -32,6 +32,9 @@
     width: 496px;
     margin-bottom: 40px;
   }
+  .page-header  {
+    padding-bottom: 12px;
+  }
 
   .features-list {
     flex-direction: row;
@@ -87,6 +90,10 @@
   .footer-modal-form-field {
     flex-direction: row;
   }
+  .footer-field-input {
+    width: 264px;
+  }
+
   .modal-window {
     width: 408px;
     padding-top: 72px;

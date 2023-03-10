@@ -36,6 +36,7 @@
     stroke: #2e2f42;
   }
 
+
   .thumb {
     display: none;
   }
@@ -57,6 +58,12 @@
   }
   .filter-list {
     width: 270px;
+  }
+  .burger-social-list {
+    gap: 56px;
+  }
+  .burger-phone {
+    font-size: 36px;
   }
 }
 

@@ -24,6 +24,9 @@
   .page-title {
     margin-bottom: 48px;
   }
+  .page-header  {
+    padding-bottom: 24px;
+  }
   .features-list {
     gap: 24px;
   }
@@ -76,6 +79,7 @@
   }
   .footer-subscribe-container {
     margin-left: auto;
+    width: 453px;
   }
   .portfolio {
     padding-bottom: 120px;
